@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Base styles */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1;
+        margin: 0;
+        padding: 0;
+        color: #666666;
+      }
+
+      /* Container */
+      .signature-container {
+        max-width: 600px;
+        padding: 0 8px;
+      }
+
+      /* Spacing */
+      .spacer {
+        height: 17px;
+      }
+
+      /* Text styles */
+      .text-gray {
+        color: #666666;
+      }
+      .text-orange {
+        color: #f99f3a;
+      }
+      .text-light-gray {
+        color: #a1a1a1;
+      }
+
+      .name {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: bold;
+        color: #f99f3a;
+      }
+
+      .title {
+        font-size: 12px;
+        line-height: 16px;
+        color: #666666;
+      }
+
+      /* Contact info */
+      .contact-info {
+        display: flex;
+        gap: 15px;
+        margin-top: 17px;
+      }
+
+      .profile-image {
+        width: 102px;
+        height: 102px;
+        border: none;
+      }
+
+      .contact-details {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .contact-row {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .contact-label {
+        width: 22px;
+        color: #f99f3a;
+        font-weight: bold;
+      }
+
+      .contact-value {
+        color: #666666;
+      }
+
+      .contact-value a {
+        color: #666666;
+        text-decoration: none;
+      }
+
+      /* Social icons */
+      .social-icons {
+        display: flex;
+        gap: 4px;
+        margin-top: 10px;
+      }
+
+      .social-icon {
+        width: 24px;
+        height: 24px;
+        border: none;
+      }
+
+      /* Logos */
+      .logos {
+        display: flex;
+        gap: 12px;
+        margin-top: 17px;
+      }
+
+      .logo {
+        border: none;
+      }
+
+      .logo-main {
+        width: 288px;
+        height: 92px;
+      }
+
+      .logo-secondary {
+        width: 146px;
+        height: 82px;
+      }
+
+      /* Footer */
+      .footer {
+        margin-top: 17px;
+      }
+
+      .eco-message {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 10px;
+        line-height: 12px;
+        color: #a1a1a1;
+      }
+
+      .eco-icon {
+        width: 10px;
+        height: 10px;
+      }
+
+      .disclaimer {
+        font-size: 10px;
+        line-height: 12px;
+        color: #a1a1a1;
+        margin-top: 17px;
+      }
+
+      /* Links */
+      a {
+        color: #666666;
+        text-decoration: none;
+      }
+
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="signature-container">
+      <div class="spacer"></div>
+
+      <div class="text-gray" style="font-size: 12px; line-height: 16px">
+        Kind Regards,
+      </div>
+
+      <div class="spacer"></div>
+
+      <div class="name">Teresa Masagnay</div>
+      <div class="title">Estimator/Project Manager</div>
+
+      <div class="contact-info">
+        <img
+          class="profile-image"
+          src="https://esr-storage.s3.amazonaws.com/images/10105/195627/images/5a56b213ed7ee.jpeg?override=1715579583"
+          alt="Profile"
+        />
+
+        <div class="contact-details">
+          <div class="contact-row">
+            <span class="contact-label">P:</span>
+            <span class="contact-value">
+              <a href="tel:(08)%209444%209877">(08) 9444 9877 (ext.4)</a>
+            </span>
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-label">E:</span>
+            <span class="contact-value">
+              <a href="mailto:projects@safetytech.net.au"
+                >projects@safetytech.net.au</a
+              >
+            </span>
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-label">W:</span>
+            <span class="contact-value">
+              <a href="http://www.safetytech.net.au">safetytech.net.au</a>
+            </span>
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-label">A:</span>
+            <span class="contact-value">
+              <a href="https://goo.gl/maps/mjrGw4Yu5YLdkBRz8"
+                >Unit 7, 83 Hector Street, Osborne Park WA 6017</a
+              >
+            </span>
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-label">P:</span>
+            <span class="contact-value">PO Box 103, Scarborough, WA 6922</span>
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-label">O:</span>
+            <span class="contact-value"
+              >Suite 77, Level 25, 108 St. Georges Terrace, Perth WA 6000</span
+            >
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-value" style="font-weight: bold">
+              24 HOUR EMERGENCY CALL OUT (08) 92451737
+            </span>
+          </div>
+
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com/SafetytechFireServicesPtyLtd/"
+              target="_blank"
+            >
+              <img
+                class="social-icon"
+                src="https://esr-storage.s3.amazonaws.com/images/10105/195627/icons/6641a8e1c9cac.png"
+                alt="Facebook"
+              />
+            </a>
+            <a
+              href="https://au.linkedin.com/company/safety-tech-fire-services"
+              target="_blank"
+            >
+              <img
+                class="social-icon"
+                src="https://esr-storage.s3.amazonaws.com/images/10105/195627/icons/6641a8e1d831d.png"
+                alt="LinkedIn"
+              />
+            </a>
+            <a href="http://www.safetytech.net.au" target="_blank">
+              <img
+                class="social-icon"
+                src="https://esr-storage.s3.amazonaws.com/images/10105/195627/icons/6641a8e1eab8b.png"
+                alt="Website"
+              />
+            </a>
+            <a href="mailto:accounts@safetytech.net.au" target="_blank">
+              <img
+                class="social-icon"
+                src="https://esr-storage.s3.amazonaws.com/images/10105/195627/icons/6641a8e205eaf.png"
+                alt="Email"
+              />
+            </a>
+            <a href="https://youtu.be/108Gpiwk60U" target="_blank">
+              <img
+                class="social-icon"
+                src="https://esr-storage.s3.amazonaws.com/images/10105/195627/icons/6641a8e21794d.png"
+                alt="YouTube"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/safetytechfireservices"
+              target="_blank"
+            >
+              <img
+                class="social-icon"
+                src="https://esr-storage.s3.amazonaws.com/images/10105/195627/icons/66cd7e1ddb2e3.png"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="logos">
+        <img
+          class="logo logo-main"
+          src="https://esr-storage.s3.amazonaws.com/images/10105/195627/images/60418d983776b.png?override=1658457843"
+          alt="Safetytech Logo"
+        />
+        <img
+          class="logo logo-secondary"
+          src="https://esr-storage.s3.amazonaws.com/images/10105/195627/images/60418db4d4099.gif?override=1726562024"
+          alt="Secondary Logo"
+        />
+      </div>
+
+      <div class="footer">
+        <div class="eco-message">
+          <img
+            class="eco-icon"
+            src="https://esr-storage.s3.amazonaws.com/images/10105/195627/icons/leaf-icon-sml.gif"
+            alt="Leaf"
+          />
+          Think before you print.
+        </div>
+
+        <div class="disclaimer">
+          If you have received this email in error please notify the system
+          manager. This message contains confidential information and is
+          intended only for the individual named. If you are not the named
+          addressee you should not disseminate, distribute or copy this e-mail.
+          Please notify the sender immediately by e-mail if you have received
+          this e-mail by mistake and delete this e-mail from your system. If you
+          are not the intended recipient you are notified that disclosing,
+          copying, distributing or taking any action in reliance on the contents
+          of this information is strictly prohibited.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
